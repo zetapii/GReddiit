@@ -1,0 +1,93 @@
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.login-form-label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.login-form-input {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-form-button {
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-header h2 {
+  font-size: 40px;
+  text-shadow: 2px 2px #000;
+}
+
+.App-content {
+  margin-top: 40px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #ddd;
+}
+
+input[type="text"] {
+  height: 10px;
+  width: 40%;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}

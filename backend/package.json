@@ -1,0 +1,38 @@
+{
+  "name": "esw-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sample.js"
+  },
+  "author": "Mohammad Zaid",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "generate-password": "^1.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "material-ui": "^0.20.2",
+    "mongoose": "^6.8.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.5",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redis": "^4.5.0",
+    "simple-json-db": "^2.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
