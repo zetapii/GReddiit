@@ -1269,13 +1269,13 @@ async function sendMailToUser(emailId,content)
   port: 465,               // true for 465, false for other ports
   host: "smtp.gmail.com",
      auth: {
-          user: 'zaidcoder@gmail.com',
-          pass: 'bxmzigxhpndrqboj',
+          user: process.env.SENDER_EMAIL,
+          pass: process.env.SENDER_PASS,
        },
   secure: true,
   });
   const mailData = {
-    from: 'zaidcoder@gmail.com',  // sender address
+    from: process.env.SENDER_EMAIL,  // sender address
       to: emailId,      // list of receivers
       subject: "Reported Post Subgreddiit",
       text: content
